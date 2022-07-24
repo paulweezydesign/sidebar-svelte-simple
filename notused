@@ -1,0 +1,45 @@
+<div class="page-wrap xyz-in text-black h-screen w-screen bg-black">
+  <div class="page-hero bg-blue-500 w-full h-60 flex flex-col items-center justify-center" xyz="fade small stagger ease-out-back">
+    <div class="hero-logo xyz-nested bg-purple-500  w-20 h-20 mx-auto rounded-full"></div>
+    <p class="hero-text text-center mt-5 xyz-nested">
+      Curabitur blandit tempus porttitor. Morbi leo risus.
+    </p>
+  </div>
+  <div
+    class="page-features flex h-40 justify-center items-center"
+    xyz="fade flip-down stagger duration-10 delay-2 ease-out-back "
+  >
+    <div class="feature-item xyz-nested bg-cyan-500 h-12 w-40 mr-4"></div>
+    <div class="feature-item xyz-nested bg-cyan-500 h-12 w-40  mr-4"></div>
+    <div class="feature-item xyz-nested bg-cyan-500 h-12 w-40"></div>
+  </div>
+  <div
+    class="page-section bg-blue-500 h-80 w-90 flex items-center justify-center"
+    xyz="fade small stagger delay-4 ease-in-out"
+  >
+    <div class="section-left" xyz="fade left stagger">
+      <div class="section-item xyz-nested bg-cyan-500 h-10 w-40 mb-4"></div>
+      <div class="section-item xyz-nested bg-cyan-500 h-10 w-40 mb-4"></div>
+      <div class="section-item xyz-nested bg-cyan-500 h-10 w-40"></div>
+    </div>
+    <span class="px-8"></span>
+    <div
+      class="section-right xyz-nested bg-cyan-500 h-40 w-40"
+      xyz="fade big delay-10"
+    ></div>
+  </div>
+  <div class="page-footer h-20 w-screen bg-blue-500 mt-10" xyz="fade bottom ease-in-out delay-10">
+    <div
+      class="footer-logo xyz-nested w-10 h-10 bg-cyan-500"
+      xyz="fade left ease-in-out delay-10"
+    ></div>
+    <div
+      class="footer-right"
+      xyz="fade up stagger ease-in-out delay-10"
+    >
+      <div class="footer-item xyz-nested bg-cyan-500 w-20"></div>
+      <div class="footer-item xyz-nestedbg-cyan-500 w-20 "></div>
+      <div class="footer-item xyz-nested bg-purple-700 w-20"></div>
+    </div>
+  </div>
+</div>
